@@ -27,7 +27,7 @@ public class CapbookRegisterStepDefinition {
 	public void user_enters_all_required_details_correctly() throws Throwable {
 		page.setFirstName("Dibyaratnam");
 		page.setLastName("Samarlia");
-		/*page.setDob*/
+		page.setDob("23031995");
 		page.setEmailId("dibyaratnam@gmail.com");
 		page.setGender("Male");
 		page.setPassword("12345");
@@ -50,7 +50,7 @@ public class CapbookRegisterStepDefinition {
 	public void user_enters_only_first_name_correct_and_other_details_incorrect() throws Throwable {
 		page.setFirstName("Dibyaratnam");
 		page.setLastName("Samarlia123");
-		/*page.setDob*/
+		page.setDob("230319951");
 		page.setEmailId("dibyaratnamgmail.com");
 		page.setGender("Male");
 		page.setPassword("123452");
@@ -68,7 +68,7 @@ public class CapbookRegisterStepDefinition {
 	public void user_enters_only_last_name_correct_and_other_details_incorrect() throws Throwable {
 		page.setFirstName("Dibyaratnam1@");
 		page.setLastName("Samarlia");
-		/*page.setDob*/
+		page.setDob("230301995");
 		page.setEmailId("dibyaratnamgmail.com");
 		page.setGender("Male");
 		page.setPassword("123452");
@@ -78,7 +78,7 @@ public class CapbookRegisterStepDefinition {
 	public void user_enters_invalid_emailId_but_other_details_correctly() throws Throwable {
 		page.setFirstName("Dibyaratnam");
 		page.setLastName("Samarlia");
-		/*page.setDob*/
+		page.setDob("23031995");
 		page.setEmailId("dibyaratnamgmail.com");
 		page.setGender("Male");
 		page.setPassword("123452");
@@ -96,7 +96,7 @@ public class CapbookRegisterStepDefinition {
 	public void user_enters_all_required_details_correctly_but_invalid_password_pattern() throws Throwable {
 		page.setFirstName("Dibyaratnam");
 		page.setLastName("Samarlia");
-		/*page.setDob*/
+		page.setDob("23031995");
 		page.setEmailId("dibyaratnam@gmail.com");
 		page.setGender("Male");
 		page.setPassword("123452!@");
